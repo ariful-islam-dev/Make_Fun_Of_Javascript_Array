@@ -8,3 +8,4 @@
     -   [ ] Array Constractor
     -   [ ] Array Factory
     -   [ ] Array Travers
+    -   [ ] Array Update
