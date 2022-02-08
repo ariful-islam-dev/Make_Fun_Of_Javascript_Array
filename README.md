@@ -2,6 +2,7 @@
 
 **_Stack Learner_**
 
-
--   [x] Array CRUD Oparation
-    -   [ ] Insert A Element
+- [x] Array CRUD Oparation
+  - [ ] Insert Element
+  - [ ] Update Eleemnt
+  - [ ] Deletement Element
