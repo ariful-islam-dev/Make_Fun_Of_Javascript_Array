@@ -1,21 +1,32 @@
+/**
+ * @Title : Add New Elements
+ */
 
-// Array Literal
-const arr = [];
-arr[0]=1;
-arr[1]=2;
-arr[2]=3;
-arr[99]=100;
-console.log(arr.length);
-console.log(arr);
+// Use push to insert at the end
+const arrP1 = [1, 2, 3];
+const arrP2 = [8, 9];
+arrP1[arrP1.length] = 4;
+arrP1.push(5);
+arrP1.push(6, 7);
 
-// Length = LastIndex + 1;
+// arrP1.push(...arrP1)
 
-const name =  [
-    'Ariful Islam',
-    'Aysha Mone',
-    'Ab Al Zarif',
-    'As Al Labib'
-];
-name[4]="Sadiqul Islam Jamil";
-name[name.length]="Johirul Islam"
-console.log(name);
+Array.prototype.push.apply(arrP1, arrP2);
+
+// console.log(arrP1);
+
+// Use unshift to insert at the begining
+
+const arrU1 = [5, 6, 7];
+const arrU2 = [1, 2, 3];
+// arrU1.unshift(...arrU2);
+Array.prototype.unshift.apply(arrU1, arrU2);
+// console.log(arrU1);
+
+// Use Splice to insert at the given index
+
+const arrS1 = [1, 2, 3, 5, 9];
+const arrS2 = [6, 7, 8];
+arrS1.splice(3, 0, 4);
+arrS1.splice(5, 0, ...arrS2)
+console.log(arrS1);
