@@ -6,3 +6,5 @@
   - [ ] Insert Element
   - [ ] Update Eleemnt
   - [ ] Deletement Element
+- [x] Array Building Method
+  - [ ] array.concate();
