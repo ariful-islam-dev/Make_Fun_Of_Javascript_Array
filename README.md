@@ -8,3 +8,4 @@
   - [ ] Deletement Element
 - [x] Array Building Method
   - [ ] array.concate();
+  - [ ] array.slice()
