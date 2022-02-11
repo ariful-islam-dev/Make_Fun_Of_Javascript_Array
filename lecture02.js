@@ -55,18 +55,20 @@ const length = reuseAndMap(names, (value) => value.length);
 const uppers = reuseAndMap(names, (value) => value.toUpperCase());
 const sliced = reuseAndMap(names, (value) => value.substr(9));
 
-console.log(length, uppers, sliced);
+// console.log(length, uppers, sliced);
 
 const length1 = names.map((value) => value.length);
 const uppers1 = names.map((value) => value.toUpperCase());
 const sliced1 = names.map((value) => value.substring(9));
 
-console.log(length1, uppers1, sliced1);
+// console.log(length1, uppers1, sliced1);
+
+// Real Life Example
 const studentArray = [
   {
     id: 1,
     name: "Ariful Islam Raju",
-    gpa: 5.0,
+    gpa: 2.99,
     email: "arifulislam@gmail.com",
   },
   { id: 2, name: "Aysha Mone", gpa: 4.19, email: "ayshaArif@gmail.com" },
@@ -74,3 +76,15 @@ const studentArray = [
   { id: 4, name: "Asadullah Al Labib", gpa: 5.0, email: "labib@gmail.com" },
   { id: 5, name: "Sadiqul Islam Jamil", gpa: 5.0, email: "jamil@gmail.com" },
 ];
+
+const mappedStudents = studentArray.map((value) => {
+  return {
+    ...value,
+    title: `Hello ${value.name} - Your result has been published`,
+    msg: `Hi ${value.name}, Your reault has been published ande You have get ${
+      value.gpa
+    }, You have ${value.gpa >= 3 ? "Passed" : "Failed"}`,
+  };
+});
+
+console.log(mappedStudents);
