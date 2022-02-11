@@ -37,4 +37,9 @@ class Stack {
   isEmpty() {
     return this.top < 0;
   }
+  printStack(){
+    return this.list;
+  }
 }
+
+module.exports = Stack
