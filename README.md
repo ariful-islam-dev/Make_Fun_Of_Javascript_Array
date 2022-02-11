@@ -2,4 +2,4 @@
 
 **_Stack Learner_**
 
-- [x] Stack Data Stracture
+- [x] Queue Data Stracture
