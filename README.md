@@ -3,4 +3,5 @@
 **_Stack Learner_**
 
 - [x] Array Looping Methods
-    -   [ ] Array forEach
+    -   [ ] Array forEach();
+    -   [ ] Array map();
