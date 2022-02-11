@@ -14,3 +14,13 @@ const Queue = require('./lecture02');
 // queue.dequeue();
 // queue.showQueue();
 // console.log(queue.next());
+
+const q = [];
+q.push('Item One')
+q.push('Item Two')
+q.push('Item Three')
+q.push('Item Four')
+q.shift();
+q.shift();
+
+console.log(q);
