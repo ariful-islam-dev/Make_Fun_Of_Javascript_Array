@@ -2,4 +2,5 @@
 
 **_Stack Learner_**
 
-- [x] Queue Data Stracture
+- [x] Array Looping Methods
+    -   [ ] Array forEach
