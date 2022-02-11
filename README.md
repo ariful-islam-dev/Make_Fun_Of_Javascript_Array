@@ -7,3 +7,4 @@
   - [ ] Array map();
   - [ ] Array filter();
   - [ ] Array filter() & map();
+  - [ ] Array every() and some()
