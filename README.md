@@ -2,9 +2,4 @@
 
 **_Stack Learner_**
 
-- [x] Array Looping Methods
-  - [ ] Array forEach();
-  - [ ] Array map();
-  - [ ] Array filter();
-  - [ ] Array filter() & map();
-  - [ ] Array every() and some()
+- [x] Reduce of Array
