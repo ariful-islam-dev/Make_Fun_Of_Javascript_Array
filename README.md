@@ -6,3 +6,4 @@
   - [ ] Basic Theory of Reduce
   - [ ] Get Summetion and Avarage
   - [ ] Gather togerther
+  - [ ] Array.flat();
