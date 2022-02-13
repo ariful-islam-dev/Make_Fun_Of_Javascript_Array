@@ -15,3 +15,5 @@
   - [ ] Mattrix summetion
   - [ ] Array map() and filter() using reduce();
   - [ ] Compose Functions
+  - [ ] Objcet Inspect
+  - [ ] Create a markup list
