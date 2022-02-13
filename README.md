@@ -14,3 +14,4 @@
   - [ ] Calculate object item and total price using Array.reduce();
   - [ ] Mattrix summetion
   - [ ] Array map() and filter() using reduce();
+  - [ ] Compose Functions
