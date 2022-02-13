@@ -11,3 +11,5 @@
   - [ ] Array Element Count Array.reduce();
   - [ ] Create Own Reduce function and Implements
   - [ ] Array.reduceRight()
+  - [ ] Calculate object item and total price using Array.reduce();
+  - [ ] Mattrix summetion
