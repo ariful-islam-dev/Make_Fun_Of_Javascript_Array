@@ -8,3 +8,4 @@
   - [ ] Gather togerther
   - [ ] Array.flat();
   - [ ] Array.flatmap();
+  - [ ] Array Element Count Array.reduce();
