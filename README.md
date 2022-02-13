@@ -9,3 +9,4 @@
   - [ ] Array.flat();
   - [ ] Array.flatmap();
   - [ ] Array Element Count Array.reduce();
+  - [ ] Create Own Reduce function and Implements
