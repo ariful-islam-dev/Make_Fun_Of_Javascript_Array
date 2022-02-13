@@ -26,4 +26,8 @@ const invoice = products.reduce((acc, cur) => {
   return acc;
 }, {});
 
-console.log(invoice);
+const totalPice = Object.values(invoice).reduce((acc, cur)=>{
+    acc += cur.price;
+    return acc
+}, 0)
+console.log(invoice, totalPice);
