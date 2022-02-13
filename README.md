@@ -7,3 +7,4 @@
   - [ ] Get Summetion and Avarage
   - [ ] Gather togerther
   - [ ] Array.flat();
+  - [ ] Array.flatmap();
