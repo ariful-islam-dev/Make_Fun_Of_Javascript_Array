@@ -1,26 +1,37 @@
 /**
- * @title : Hands on Reduce
+ * @title : Implement Bubble Sort
  */
 
-let numbers = [1, 2, 3, 4, 5];
-//Implementing Sum;
-function reduce(accumulator, currentValue) {
-  return accumulator + currentValue;
-}
+let myArray = [1, 3, 78, 39, 22, 34, 2, 11, 30, 567, 19, 90];
 
-const sum = numbers.reduce(reduce);
-// console.log(sum);
-
-// Implementing Average;
-
-const avg = numbers.reduce((acc, cur, index, arr) => {
-  acc += cur;
-
-  if (index === arr.length - 1) {
-    return acc / arr.length;
+const bubbleSort = (array) => {
+  for (let i = 0; i < array.length; i++) {
+    for (let j = 0; j < array.length - 1; j++) {
+      if (array[j] > array[j + 1]) {
+        let temp = array[j];
+        array[j] = array[j + 1];
+        array[j + 1] = temp;
+      }
+    }
   }
-  return acc;
-});
+};
 
+console.log(["[Unsorted]", myArray]);
 
-console.log(avg);
+bubbleSort(myArray);
+
+console.log(["[Sorted]", myArray]);
+
+// const disBubbleSort = (array) => {
+//   for (let i = array.length; i <= 0; i--) {
+//     for (let j = 0; j < array.length - 1; j++) {
+//       if (array[j] < array[j - 1]) {
+//         let temp = array[j];
+//         array[j] = array[j - 1];
+//         array[j - 1] = temp;
+//       }
+//     }
+//   }
+// };
+
+// console.log(disBubbleSort(myArray));

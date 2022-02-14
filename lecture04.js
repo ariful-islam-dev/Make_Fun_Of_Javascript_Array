@@ -1,19 +1,10 @@
 /**
- * @title: Example Array Flatten
+ * @Title : How to Work with Sort Method
  */
 
-const nestedArray = [[1, 2], 3, [4, 5], [6]];
+let numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+// Will Not work perfectly
 
-// [1,2,3,4,5];
+numbers.sort();
 
-// Array Flat Mathod]
-const flatArray1 = nestedArray.flat();
-console.log(flatArray1);
-
-// We can do the same using reduce mehtod
-
-const flatArray2 = nestedArray.reduce((acc, cur) => {
-  return acc.concat(cur);
-}, []);
-
-console.log(flatArray2);
+console.log(numbers);
