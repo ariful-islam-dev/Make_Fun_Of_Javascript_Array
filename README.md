@@ -7,3 +7,4 @@
   - [ ] Array.sort()
   - [ ]
   - [ ] Array.sort(cb)
+  - [ ] Bubble Sort with cb()
