@@ -11,3 +11,4 @@
   - [ ] linear Search
   - [ ] Binary Search
   - [ ] Binary Search Implementation
+  - [ ] Array.findIndex()
