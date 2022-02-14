@@ -4,3 +4,6 @@
 
 - [x] Array Sorting
   - [ ] Bubble Sort
+  - [ ] Array.sort()
+  - [ ]
+  - [ ] Array.sort(cb)
