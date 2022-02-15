@@ -3,4 +3,5 @@
 **_Stack Learner_**
 
 - [x] Array Itarable
-  - [ ]
+  - [ ] Custome iterator
+  - [ ] Array iterator
