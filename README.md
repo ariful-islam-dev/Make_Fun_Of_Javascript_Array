@@ -2,13 +2,9 @@
 
 **_Stack Learner_**
 
-- [x] Array Sorting Searching
-  - [ ] Bubble Sort
-  - [ ] Array.sort()
-  - [ ]
-  - [ ] Array.sort(cb)
-  - [ ] Bubble Sort with cb()
-  - [ ] linear Search
-  - [ ] Binary Search
-  - [ ] Binary Search Implementation
-  - [ ] Array.findIndex()
+- [x] Array Building Methrods
+  - [ ] Array Constactor
+    1.  Array.from()
+    2.  Array.isArray()
+    3.  Array.of()
+  - [ ] array.join()

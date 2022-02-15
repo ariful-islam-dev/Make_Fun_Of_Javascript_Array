@@ -1,58 +1,80 @@
-const arr = [14, 2, 7, 4, 55, 9, 20, 34];
-const sortedArr = [2, 4, 7, 9, 14, 20, 34, 55];
+/**
+ * @title: Static Methods Vs Instance Methods
+ */
 
-const names = [
-  "Zarif",
-  "Labib",
-  "Arif",
-  "Johir",
-  "Aziz",
-  "Jamil",
-  "Asia",
-  "Aysha",
-  "Rupa",
-  "Sohag",
-  "Sohraf",
-  "Halima",
-];
+const arr = [];
+// arr.concat();
+// Array.from();
 
-const sortedNames = [
-  "Arif",
-  "Asia",
-  "Aysha",
-  "Aziz",
-  "Halima",
-  "Jamil",
-  "Johir",
-  "Labib",
-  "Rupa",
-  "Sohag",
-  "Sohraf",
-  "Zarif",
-];
+//Example Of Javascript Method
+// Array.from();
 
-const team = [
-  { id: 1, name: "Zarif" },
-  { id: 2, name: "Labib" },
-  { id: 3, name: "Arif" },
-  { id: 4, name: "Johir" },
-  { id: 5, name: "Aziz" },
-  { id: 6, name: "Jamil" },
-  { id: 7, name: "Asia" },
-  { id: 8, name: "Aysha" },
-  { id: 9, name: "Rupa" },
-  { id: 10, name: "Sohag" },
-  { id: 11, name: "Sohraf" },
-  { id: 12, name: "Halima" },
-];
+const s = Array.from("Stack Learner");
+// console.log(s);
 
-const teamSortedById = [
+const set = new Set(["foo", "bar", "baz", "foo"]);
+const s1 = Array.from(set);
+// console.log(s1);
 
-]
+const mapper = new Map([
+  ["1", "a"],
+  ["2", "b"],
+]);
+Array.from(mapper.values());
+Array.from(mapper.keys());
 
-const teamSortedByName = [
+function f() {
+  return Array.from(arguments);
+}
 
-]
-names.map((v, i) => {
-  
-});
+f(1, 2, 3);
+
+Array.from([1, 2, 3], (x) => x + x);
+
+Array.from({ length: 5 }, (v, i) => i);
+
+const range = (start, stop, step) => {
+  Array.from(
+    {
+      length: (stop - start) / step + 1,
+    },
+
+    (_, i) => start + i * step
+  );
+};
+
+range(0, 4, 1);
+
+range(1, 10, 2);
+
+range("A".charCodeAt(0), "Z".charCodeAt(0), 1).map((x) =>
+  String.fromCharCode(x)
+);
+//Array.isArray();
+
+Array.isArray([]);
+Array.isArray([1]);
+Array.isArray(new Array());
+Array.isArray(new Array("a", "b", "c", "d"));
+Array.isArray(new Array(3));
+Array.isArray(Array.prototype);
+
+// all fllowing callse return false
+Array.isArray();
+Array.isArray({});
+Array.isArray(null);
+Array.isArray(undefined);
+Array.isArray(17);
+Array.isArray("Array");
+Array.isArray(true);
+Array.isArray(false);
+Array.isArray(new Uint8Array(32));
+Array.isArray({ __proto__: Array.prototype });
+
+// Array.of();
+
+Array.of(7);
+Array.of(1, 2, 3);
+Array.of(undefined);
+Array(7);
+Array(1, 2, 3);
