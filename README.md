@@ -8,3 +8,4 @@
     2.  Array.isArray()
     3.  Array.of()
   - [ ] array.join()
+  - [ ] includes, indexOf and LastIndexOf
