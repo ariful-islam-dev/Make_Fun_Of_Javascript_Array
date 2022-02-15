@@ -2,8 +2,5 @@
 
 **_Stack Learner_**
 
-- [x] Array Itarable
-  - [ ] Custome iterator
-  - [ ] Array iterator
-  - [ ] Array iterator Implement
-  - [ ] Array iterator Implement forOf Loop
+- [x] Array is an Object
+  - [ ] Array is an Objcet
