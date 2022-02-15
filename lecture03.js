@@ -4,6 +4,7 @@
 
 const arr1 = [1, 2, 3, 4];
 const arr2 = [1, 2, 3, 4];
+const arr3 = arr1;
 
 if (JSON.stringify(arr1) === JSON.stringify(arr2)) {
   console.log("Equal");
@@ -29,4 +30,7 @@ const compare = (arr1, arr2) => {
   }
 };
 
-console.log(compare(arr1, arr2));
+// console.log(compare(arr1, arr2));
+
+console.log(arr1 === arr3);
+
